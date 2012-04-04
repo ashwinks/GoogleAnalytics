@@ -14,9 +14,7 @@
 
         /**
          *
-         * Get GA tracking code for facebook landing pages that an ad points to
          * This should only be used if we're manually passing campaign information through a url
-         * This function will build a new referrer url "ads.facebook.com" along with the campaign info
          *
          * For regular page tracking use @method getBasicInitCode
          *
@@ -31,7 +29,6 @@
             // init gat
             $code = $this->getGaqInitCode();
 
-            // manually set our reffer because facebook overrides this to statick.fk.facebook or someshit like that
             if (!empty($referrer)){
                 $code .= $this->getReferrerOverrideCode($referrer);
             }
