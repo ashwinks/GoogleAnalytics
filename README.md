@@ -3,10 +3,10 @@ GoogleAnalytics
 
 A PHP wrapper for Google Analytics
 
-This is a simple PHP wrapper for various Google Analytics features. It returns the javascript code (wrapped in <script> tags) that needs to be put in your pages. You should add the code before the closing </body> tag.
+This is a simple PHP wrapper for various Google Analytics features. It returns the javascript code (wrapped in script tags) that needs to be put in your pages. You should add the code before the closing body tag.
 
 Sample use:
-======
+==============
 
 ```php
 require 'GoogleAnalytics.php';
