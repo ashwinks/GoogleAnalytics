@@ -37,5 +37,7 @@ echo $ga->getVirtualPageviewCode('http://someurltotrack.com/virtualpage');
 ```
 
 Getting code to track an event.
+```php
 $ga = new GoogleAnalytics('UA-XXXXXXXX-X');
 echo $ga->getEventCode(1, 'someaction', 'somelabel');
+```
